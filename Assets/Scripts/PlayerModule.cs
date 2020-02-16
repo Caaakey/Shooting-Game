@@ -17,7 +17,7 @@ public class PlayerModule : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             GameObject go = Instantiate(bullet, null);
 
