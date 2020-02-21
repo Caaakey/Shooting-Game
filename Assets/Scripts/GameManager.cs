@@ -4,11 +4,20 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    private void OnTriggerExit2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.tag == "Bullet")
-            Destroy(collision.gameObject);
+        var enemy = collision.gameObject.GetComponent<EnemyModule>();
+        if (enemy != null) enemy.IsShooting = true;
     }
 
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        Destroy(collision.gameObject);
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        Destroy(collision.gameObject);
+    }
 
 }

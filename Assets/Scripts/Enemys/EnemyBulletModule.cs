@@ -57,7 +57,7 @@ public class EnemyBulletModule : MonoBehaviour
             if (p != null)
             {
                 float angle = GetAngle(p.transform.position, transform.position);
-                transform.rotation = Quaternion.Euler(0, 0, angle / 2);
+                transform.rotation = Quaternion.Euler(0, 0, angle);
             }
 
             delayTime = 0;

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5619384580949020949}
   - component: {fileID: 5619384580949020946}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Renderer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,9 +92,9 @@ GameObject:
   - component: {fileID: 5619384581004487483}
   - component: {fileID: 5619384581004487482}
   - component: {fileID: 6222418819610743110}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Enemy Bullet
-  m_TagString: Bullet
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -123,7 +123,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5619384581004487485}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7028b5a86ac16a4cb0e9264cfa84852, type: 3}
+  m_Script: {fileID: 11500000, guid: 4bc7b6ea528f7bd4aa8ddf14032891da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!58 &6222418819610743110

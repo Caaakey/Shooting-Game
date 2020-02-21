@@ -10,13 +10,17 @@ public class PlayerModule : MonoBehaviour
     public Transform bulletTransform;    //  총알 생성할 자리
     public GameObject bullet;           //  총알
 
-    void Start()
+    public bool isDeath = false;
+    private SpriteRenderer sprite = null;
+
+    private void Awake()
     {
-        
+        sprite = transform.GetChild(0).GetComponent<SpriteRenderer>();
     }
 
     void Update()
     {
+        if (isDeath) return;
         if (Input.GetKeyDown(KeyCode.Space))
         {
             GameObject go = Instantiate(bullet, null);
@@ -28,6 +32,7 @@ public class PlayerModule : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (isDeath) return;
         if (Input.GetKey(KeyCode.UpArrow))
         {
             if (transform.localPosition.y < boundary.y)
@@ -57,7 +62,6 @@ public class PlayerModule : MonoBehaviour
 
             else RecoveryPosition();
         }
-
     }
 
     private void RecoveryPosition()
@@ -66,6 +70,19 @@ public class PlayerModule : MonoBehaviour
                     new Vector3(
                         transform.localPosition.x,
                         transform.localPosition.y);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (isDeath) return;
+        if (!collision.CompareTag("Enemy")) return;
+
+        GameObject sfx = Instantiate(Resources.Load("Effects/Enemy Death Effect") as Object, null) as GameObject;
+        sfx.transform.position = transform.position;
+
+        sprite.color = new Color(1, 1, 1, 0);
+        Destroy(collision.gameObject);
+        isDeath = true;
     }
 
 }
