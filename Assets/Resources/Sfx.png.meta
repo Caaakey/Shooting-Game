@@ -1,49 +1,34 @@
 fileFormatVersion: 2
-guid: 1c5c0c81016ceba4294f69959c50b07d
+guid: ab445827e1ee73a4983af79284e53b19
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3785336970956462108
-    second: Sfx_0
+      213: 1057370213356842337
+    second: SFX_0
   - first:
-      213: 888638080143688370
-    second: Sfx_1
+      213: 2502516069332086611
+    second: SFX_1
   - first:
-      213: 2630079408214522935
-    second: Sfx_2
+      213: 2778089917058024897
+    second: SFX_2
   - first:
-      213: -7960003614686035514
-    second: Sfx_3
+      213: 21471654300866455
+    second: SFX_3
   - first:
-      213: 2613825705162860186
-    second: Sfx_4
+      213: 1012580945133643729
+    second: SFX_4
   - first:
-      213: 6926309910752103418
-    second: Sfx_5
+      213: -5762079822691355602
+    second: SFX_5
   - first:
-      213: -5466650666870025627
-    second: Sfx_6
+      213: -457918812236469211
+    second: SFX_6
   - first:
-      213: 8627837153524439058
-    second: Sfx_7
+      213: -3586196278567727728
+    second: SFX_7
   - first:
-      213: -6305558391682263886
-    second: Sfx_8
-  - first:
-      213: 8211352218066111429
-    second: Sfx_9
-  - first:
-      213: -971142098317198592
-    second: Sfx_10
-  - first:
-      213: -8099811690608924208
-    second: Sfx_11
-  - first:
-      213: -2421805214403302565
-    second: Sfx_12
-  - first:
-      213: 899277303407844819
-    second: Sfx_13
+      213: -6071556422133726458
+    second: SFX_8
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -125,18 +110,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -152,7 +125,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sfx_0
+      name: SFX_0
       rect:
         serializedVersion: 2
         x: 4
@@ -160,20 +133,20 @@ TextureImporter:
         width: 30
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 838230c3299ef7f4095dd9d6636e52e5
-      internalID: -3785336970956462108
+      spriteID: e0128936b5383c540ada7a514bbbc3f3
+      internalID: 1057370213356842337
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sfx_3
+      name: SFX_1
       rect:
         serializedVersion: 2
         x: 38
@@ -181,20 +154,20 @@ TextureImporter:
         width: 30
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9388402e3338da943a86918adc27216c
-      internalID: -7960003614686035514
+      spriteID: 21dfb6ee5bf3b1948b3464372e9677ec
+      internalID: 2502516069332086611
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sfx_6
+      name: SFX_2
       rect:
         serializedVersion: 2
         x: 72
@@ -202,20 +175,20 @@ TextureImporter:
         width: 30
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0e6f07a41f03714090048c2cd06b353
-      internalID: -5466650666870025627
+      spriteID: f9832caec3922cc4c978513ef806cd84
+      internalID: 2778089917058024897
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sfx_8
+      name: SFX_3
       rect:
         serializedVersion: 2
         x: 108
@@ -223,20 +196,20 @@ TextureImporter:
         width: 26
         height: 28
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c0d6f27ea26a1d40ae05c53405bb5fd
-      internalID: -6305558391682263886
+      spriteID: abea5da16b04147449fcc118800ef870
+      internalID: 21471654300866455
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sfx_9
+      name: SFX_4
       rect:
         serializedVersion: 2
         x: 140
@@ -244,20 +217,20 @@ TextureImporter:
         width: 36
         height: 39
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28942b37b8cda8b47b638b6a95409207
-      internalID: 8211352218066111429
+      spriteID: e00619cddeb58ed4d86801cf2ec36941
+      internalID: 1012580945133643729
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sfx_10
+      name: SFX_5
       rect:
         serializedVersion: 2
         x: 182
@@ -265,20 +238,20 @@ TextureImporter:
         width: 36
         height: 39
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8176b6cc931274541ab3ffbb07484367
-      internalID: -971142098317198592
+      spriteID: 04f4d59444f6cde44a1830691e88b2ec
+      internalID: -5762079822691355602
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sfx_11
+      name: SFX_6
       rect:
         serializedVersion: 2
         x: 223
@@ -286,20 +259,20 @@ TextureImporter:
         width: 36
         height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d538a7dd4aacd934ba554c51d81e895d
-      internalID: -8099811690608924208
+      spriteID: 88d5ca38d64011e4584692ff55dbc161
+      internalID: -457918812236469211
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sfx_12
+      name: SFX_7
       rect:
         serializedVersion: 2
         x: 265
@@ -307,20 +280,20 @@ TextureImporter:
         width: 40
         height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2cf5ba1c73732e4791c3de542ce1cad
-      internalID: -2421805214403302565
+      spriteID: 91884b8e57be25a4d9d4213a25b1d5f3
+      internalID: -3586196278567727728
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sfx_13
+      name: SFX_8
       rect:
         serializedVersion: 2
         x: 311
@@ -328,14 +301,14 @@ TextureImporter:
         width: 40
         height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91cd20943fd17944094678c0dd13b485
-      internalID: 899277303407844819
+      spriteID: 4091420830e04f84aa32d63bd6399732
+      internalID: -6071556422133726458
       vertices: []
       indices: 
       edges: []
@@ -343,7 +316,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5c98bbfaac9e44b40a4e1db8ce1a12a4
+    spriteID: 40947c8cedd352f498a135c6eab98f1f
     internalID: 0
     vertices: []
     indices: 

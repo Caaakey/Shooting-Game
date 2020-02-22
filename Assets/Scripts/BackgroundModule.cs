@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class BackgroundModule : MonoBehaviour
+class BackgroundModule : MonoBehaviour
 {
     public float speed = 1f;
     private float offset = 0;
@@ -18,5 +18,6 @@ public class BackgroundModule : MonoBehaviour
         offset += speed * Time.deltaTime;
         material.SetTextureOffset("_MainTex", new Vector2(0, offset));
     }
+
 
 }
